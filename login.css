@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.warprap{
+    width: 420px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    color: #ecf0f1;
+    position: relative;
+    padding: 40px 15px;
+    border-radius: 30px;
+    border: 2px solid #ecf0f1;
+    box-shadow: 1px 0px 10px 1px #ecf0f1;
+    margin: 0px 10px;
+}
+.warprap h1{
+    text-align: center;
+    font-size: 35px;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #95a5a6;
+    font-size: 18px;
+    padding: 0px 8px;
+}
+.input-box input::placeholder{
+    color: #ecf0f1;
+    font-size: 18px;
+}
+.input-box i{
+    position: absolute;
+    color: #ecf0f1;
+    right: 20px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.remamer-password{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    
+}
+.remamer-password input{
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+.remamer-password a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.remamer-password a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid #95a5a6;
+    cursor: pointer;
+}
+.register-link{
+    margin-top: 20px;
+    text-align: center;
+}
+.register-link a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 700;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
